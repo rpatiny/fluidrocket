@@ -1,0 +1,236 @@
+/* header{
+    margin-top: 30px;
+    margin: auto;
+} */
+
+body {
+    display: flex;
+    font-family: rubrik-edge-new, sans-serif;
+    font-size: 40px;
+    background-color: #FB6962;
+    background-image: url(/ezgif.com-gif-maker.gif);
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    width: 100vw;
+    flex-direction: column;
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 15px 0px 0px 0px;
+    font-weight: 600;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 0px 0px 5px -180px;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+h4 {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+p {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 1rem;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    /* border-radius: 50%; */
+    margin-right: 40%;
+    margin-top: 10px;
+    height: 200px;
+    width: 178px;
+}
+
+a {
+    display: inline-block;
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: white;
+    margin: 10px 5px 10px 5px;
+}
+
+.icones{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.glass {
+    border: 0.75px solid white;
+    width: 80%;
+    max-width: 380px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px;
+    padding: 15px;
+    /* background: inherit; */
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .3);
+    /* filter: blur(1px); */
+    /* margin: -20px; */
+    min-width: 335px;
+
+}
+
+#telefone {
+    display: block;
+    /* margin-bottom: 10px; */
+    border: 0.75px solid white;
+    border-radius: 15px;
+    padding: 10px 10px;
+    width: 60%;
+    margin: 15px auto ;
+}
+
+#mail {
+    display: block;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+i { 
+    font-size: 2rem;
+    margin: 10px;
+}
+
+i:hover {
+    color: #c24f48;
+}
+
+.btn2 {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    color:#FB6962;
+    border: 0.75px solid #FB6962;
+    border-radius: 10px;
+    font-family: rubrik-edge-new, sans-serif;
+    font-size: 1rem;
+    width: auto;
+    height: auto;
+}
+
+.btn2:hover {
+    background-color: #c24f48;
+}
+
+.btn2 a{
+    color:#FB6962;
+    font-size: 1.5rem;
+}
+
+.btn2 a:hover{ 
+    color: white;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+  /* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 20px;
+    background-color: #FB6962;
+    border: 1px solid ;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.modal-content img {
+    margin: 25px auto 10px;
+    width: auto;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+  /* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #c24f48;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#ola {
+    animation: bounce 28s;
+    transform: translateY(0px);
+    animation-iteration-count: infinite;
+    position:absolute;
+    margin-left: 230px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    /* background-color: ; */
+    filter: blur(2px);
+
+}
+/* 
+#copyright { 
+    margin-left: 16%;
+    margin-top: 5px;
+
+} */
+
+@keyframes bounce {
+	0% {top: 0;
+		-webkit-animation-timing-function: linear;
+	}
+	40% {}
+	50% {top: 140px;
+		height: 200px;
+		-webkit-animation-timing-function: linear;
+	}
+	55% {top: 160px; height: 200px; 
+		-webkit-animation-timing-function: linear;}
+	65% {top: 140px; height: 200px; 
+		-webkit-animation-timing-function: linear;}
+	95% {
+		top: 0;		
+		-webkit-animation-timing-function: linear;
+	}
+	100% {top: 0;
+		-webkit-animation-timing-function: linear;
+	}
+}

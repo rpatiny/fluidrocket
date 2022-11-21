@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+    <link rel="stylesheet" href="https://use.typekit.net/aww4ykw.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"></script>
+
+    
+    <title>FluidRocket Business Card</title>
+</head>
+<header>
+    <h2><a href="#">fluidrocket.co</a></h2>
+</header>
+<body>
+    <div class="glass">
+        <div class="avatar">
+            <img id="ola" src="/blurredBall.png" alt="">
+            <a href="" id="myBtn">
+                <!-- <button id="myBtn">Open Modal</button> -->
+                
+                <img class="avatar-img" src="/rocket.png" alt="">
+            </a>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <img src="/Untitled.svg" alt="">
+                    <p>scan this</p>
+                </div>
+            </div>
+        </div>
+        <h1>Rodolfo Pattini</h1>
+        <button class="btn2"><a href="Rodolfo_Pattini.vcf">Add to contacts</a></button>
+        <!-- <a id="mail" href="mailto:rodolfopatini@gmail.com">hello@fluidrocket.co</a> -->
+        <!-- <a id="telefone" href="tel:+4407310856543"> 07310 856 543</a> -->
+        
+        <h4>stay connected</h4>
+        <a href="https://www.behance.net/rodolfopatini" target="blank"><img class="icones" src="behance.png" alt=""></i></a>
+        <a href="https://www.linkedin.com/in/rodolfo-patini-54b999ba/" target="blank" ><img class="icones" src="linkedin.png" alt=""></i></a>
+        
+    </div>
+    <div>
+    <p id="copyright">All rights reserved. ©FluidRocket</p>
+    </div>
+    <script>
+        // Get
+        var modal = document.getElementById("myModal");
+        
+        // Get botão
+        var btn = document.getElementById("myBtn");
+        
+        // Get botão de fechar
+        let span = document.getElementsByClassName("close")[0];
+        
+        // Quando o usr clica, abre o modal
+        btn.onclick = function(e) {
+            e.preventDefault();
+        modal.style.display = "block";
+        }
+        
+        // quando o usr clica, fecha o modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+        
+        // quando o usr clica fora da caixinha, fecha o modal
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        }
+        </script>
+</body>
+</html>
